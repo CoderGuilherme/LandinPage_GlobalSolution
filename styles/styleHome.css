@@ -5,6 +5,9 @@
     padding: 0;
 }
 
+html{
+    scroll-behavior: smooth;
+}
 :root{
     --Font-family-primary: "Poppins", sans-serif;
 }
@@ -43,6 +46,7 @@
     justify-content: center;
     align-items: center;
     box-sizing: border-box;
+    text-align: center;
 }
 
 .container_home video{
@@ -54,13 +58,20 @@
 
 }
 .container_home h2{
-    font-size: 4rem;
+    font-size: 3rem;
     font-family: var(--Font-family-primary);
     color: white;
     z-index: 1;
-    margin-top: 300px;
+    margin-right: 120px;
 
 }
+.par{
+    font-size: 2rem;
+    margin-top: 400px;
+    padding-top:50px
+}
+
+
 .titulo_animed{
     display: flex;
     position: absolute;

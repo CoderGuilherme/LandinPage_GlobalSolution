@@ -1,22 +1,4 @@
-.container_about{
-    width: 100%;
-    height: 100vh;
-    overflow: hidden;
-    display: flex;
-    position: relative;
-    z-index: 3;
-    justify-content: center;
-    align-items: center;
-    background: black;
 
-}
-
-.container_about h1{
-    color: white;
-    font-size: 4rem;
-    font-family: var(--Font-family-primary);
-    color: white;
-}
 
 #SECTION2,#SECTION3, #SECTION4, #SECTION5, #SECTION6{
     width: 100%;
@@ -27,8 +9,7 @@
     z-index: 3;
     justify-content: center;
     align-items: center;
-    background: black
-    
+    background: black;  
 }
 
 #SECTION2,#SECTION3, #SECTION4, #SECTION5, #SECTION6 h1{
