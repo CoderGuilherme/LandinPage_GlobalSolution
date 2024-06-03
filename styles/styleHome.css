@@ -57,18 +57,21 @@ html{
     width: 100%;
 
 }
-.container_home h2{
+
+.home_content{
+    display: block;
+    z-index: 3;
+    margin-top: 360px;
+}
+.home_content h2{
     font-size: 3rem;
     font-family: var(--Font-family-primary);
     color: white;
-    z-index: 1;
-    margin-right: 120px;
-
 }
-.par{
+.home_content p {
     font-size: 2rem;
-    margin-top: 400px;
-    padding-top:50px
+    font-family: var(--Font-family-primary);
+    color: white;
 }
 
 
