@@ -1,0 +1,75 @@
+.conatiner_prototipo{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    background: black; 
+    background-image: url("/image/bg_pagetecnologia2.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-x: 1.3px;
+    
+}
+
+.conatiner_prototipo h2{
+    color: var(--color-strong);
+    font-family: var(--Font-family-primary);
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.conatiner_prototipo p{
+    color: white;
+    font-family: var(--Font-family-primary);
+    font-size: 1rem;
+    font-weight: 500;
+
+}
+
+.conatiner_prototipo{
+    justify-content: space-between;
+}
+
+.prototipo_left{
+    width: 50%;
+    padding-right: 20%;
+    margin: 100px 0 20px 20px; 
+
+}
+.prototipo_left-top{
+    height: 50%;
+    width: 100%;
+    
+    
+}
+
+.prototipo_left-bottom{
+    height: 50%;
+    width: 100%;
+    margin-top: 50px;
+    
+}
+
+.prototipo_right{
+    width: 50%;
+    padding-left: 20%;
+    margin: 100px 20px 20px 0 ; 
+}
+
+.prototipo_right-top{
+    height: 50%;
+    width: 100%;
+    
+    
+}
+
+.prototipo_right-bottom{
+    height: 50%;
+    width: 100%;
+    margin-top: 50px;
+
+    
+}
+
+
